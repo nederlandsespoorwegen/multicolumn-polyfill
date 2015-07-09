@@ -128,9 +128,9 @@
 
         /* FIX if there are memory leaks: cleanup the
          * cleanup element && eventhandlers
-         * Note: I this case you cannot get the element back  
-        $el.remove();
+         * Note: I this case you cannot get the element back
          */
+        $el.remove();
       });
     },
 
